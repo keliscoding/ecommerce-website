@@ -1,16 +1,15 @@
 <nav class="navbar-container ff-poppins">
   <img src="./assets/Logo.png" alt="logo"/>
   <ul class="ul-container">
-    <li class="active"><a href="">Home</a></li>
-    <li><a href="">Shop</a></li>
-    <li><a href="">Blogs</a></li>
+    <li class="active"><a routerLink="/">Home</a></li>
+    <li><a routerLink="/shop">Shop</a></li>
     <li><a routerLink="/about">About</a></li>
-    <li><a href="">Contact</a></li>
+    <li><a routerLink="/contact">Contact</a></li>
   </ul>
   <div class="user-menu-container">
-    <button><img src="./assets/people.svg" alt="user icon"> Login/Register</button>
+    <button (click)="toRegister()"><img src="./assets/people.svg" alt="user icon"> Login/Register</button>
     <button><img src="./assets/Search.svg" alt="search icon"></button>
-    <button><img src="./assets/cart.svg" alt="cart icon">1</button>
-    <button><img src="./assets/heart.svg" alt="heart icon">2</button>
+    <button (click)="toCart()"><img src="./assets/cart.svg" alt="cart icon">1</button>
+    <button (click)="toWishList()"><img src="./assets/heart.svg" alt="heart icon">2</button>
   </div>
 </nav>
