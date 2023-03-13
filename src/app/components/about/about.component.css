@@ -1,0 +1,47 @@
+.about-container {
+  display: flex;
+  min-height: 100%;
+}
+
+.about-container img {
+  max-width: 100%;
+  height: auto;
+  z-index: -1;
+}
+
+.about-data {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 5.5rem 9.31rem 5.5rem 8rem ;
+}
+
+.about-text {
+  color: #737373;
+  text-align: justify;
+  padding-right: 5rem;
+}
+
+.about-text h2,
+.data span{
+  font-size: 2.75rem;
+  font-weight: 700;
+  color: #2D2D2D;
+}
+
+.about-text h2 {
+  margin-bottom: 3rem;
+  text-transform: uppercase;
+}
+
+.about-text p{
+  margin-top: 1rem;
+}
+
+.data {
+  display: flex;
+  gap: 6rem;
+  color: #DB6B97;
+  font-weight: 600;
+}
+

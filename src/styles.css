@@ -17,7 +17,8 @@ button {
 }
 
 body {
-  background: gray;
+  background: #FFFFFF;
+  height: calc(100vh - 100px);
 }
 
 ul, ol {
