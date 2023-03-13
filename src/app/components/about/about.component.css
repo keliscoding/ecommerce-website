@@ -1,6 +1,7 @@
 .about-container {
   display: flex;
   min-height: 100%;
+  
 }
 
 .about-container img {
@@ -12,14 +13,18 @@
 .about-data {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  margin: 5.5rem 9.31rem 5.5rem 8rem ;
+  align-items: center;
+  align-self: center;
+  gap: 5rem;
+  
+  flex-grow: 4;
 }
 
 .about-text {
   color: #737373;
   text-align: justify;
   padding-right: 5rem;
+  flex-grow: 2;
 }
 
 .about-text h2,
@@ -36,11 +41,12 @@
 
 .about-text p{
   margin-top: 1rem;
+  max-width: 36.7rem;
 }
 
 .data {
   display: flex;
-  gap: 6rem;
+  gap: 4rem;
   color: #DB6B97;
   font-weight: 600;
 }
