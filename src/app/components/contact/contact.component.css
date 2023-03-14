@@ -1,0 +1,88 @@
+.packages {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.contact-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 8rem;
+  gap: 2rem;
+}
+
+.contact-container form {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  max-width: 24rem;
+  margin-left: auto;
+}
+
+.contact-container form label {
+  margin-top: 1rem;
+  align-self: flex-start;
+}
+
+.contact-container button {
+  margin-top: 2rem;
+}
+
+.contact-container h2 {
+  align-self: flex-start;
+  color: #2D2D2D;
+  font-weight: 600;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+}
+
+.contact-container p {
+  color: #737373;
+  font-size: 0.875rem;
+}
+
+.contact-info {
+  background-color: #DB6B97;
+  color: #FFFFFF;
+  margin-left: auto;
+
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+
+  max-height: 100%;
+  max-width: 50rem;
+  box-sizing: border-box;
+  padding: 4rem;
+  gap: 4rem;
+}
+
+.contact-info img {
+  margin-right: 1rem;
+}
+
+.contact-info div {
+  display: flex;
+  gap: 3rem;
+}
+
+.contact-info div button{
+  width: 24px;
+  transition: .3s;
+}
+
+.contact-info div button:hover{
+  opacity: .5;
+}
+
+.clock {
+  display: flex;
+}
+
+.clock img {
+  height: 20px;
+}
+
+
