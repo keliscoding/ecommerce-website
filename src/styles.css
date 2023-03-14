@@ -58,6 +58,7 @@ a {
 
   color: #737373;
   width: 100%;
+  font-size: inherit;
 }
 
 textarea {

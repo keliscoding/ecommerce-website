@@ -1,0 +1,72 @@
+.home-container {
+  display: grid;
+  grid-template-columns: minmax(3, 1fr);
+  grid-template-rows: minmax(3, 1fr);
+  grid-template-areas:
+    "sidebar topside topside"
+    "sidebar leftside rightside"
+  ;
+  column-gap: 2rem;
+  row-gap: 2rem;
+
+  justify-content: center;
+  align-content: center;
+  max-width: 100%;
+  max-height: fit-content;
+  margin-top: 2rem;
+
+}
+
+.home-container img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  transition: .3s;
+}
+
+.home-container img:hover {
+  filter: blur(0.1rem);
+  filter: grayscale();
+  opacity: 0.5;
+}
+
+.explore-all {
+  grid-area: sidebar;
+  position: relative;
+}
+
+.footwear {
+  grid-area: topside;
+  position: relative;
+}
+
+.demins {
+  grid-area: rightside;
+  position: relative;
+}
+
+.sweaters {
+  grid-area: leftside;
+  position: relative;
+}
+
+.image-title {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  display: flex;
+  flex-direction: column;
+  font-weight: 600;
+  color: #DB6B97;
+  font-size: 0.87rem;
+}
+
+.image-title img {
+  width: 24px;
+  height: 10px;
+}
+
+.image-title span{
+  color: #2D2D2D;
+  font-size: 1.4rem;
+}
